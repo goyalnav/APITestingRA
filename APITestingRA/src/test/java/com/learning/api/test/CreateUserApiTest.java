@@ -34,9 +34,10 @@ public class CreateUserApiTest extends BaseTest {
 		this.lu.logs("\nHeader Server: " + response.header("Server"));
 		Assert.assertEquals(jsonpath.get("name"), name);
 		this.lu.logs("\nNode name: " + jsonpath.get("name"));
+		
 		Assert.assertEquals(jsonpath.get("job"), job);
 		this.lu.logs("\nNode Job: " + jsonpath.get("job"));
-		this.logger.info("Testing Logger " + name + job);
+		this.logger.warn("Testing Logger " + response.statusCode() + response.header("Server") + name + job);
 
 	}
 

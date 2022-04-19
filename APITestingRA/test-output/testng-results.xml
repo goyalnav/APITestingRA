@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-14T15:14:20 IST" name="API Tests" finished-at="2022-04-14T15:14:29 IST" duration-ms="9224">
+  <suite started-at="2022-04-19T15:19:00 IST" name="API Tests" finished-at="2022-04-19T15:19:11 IST" duration-ms="11000">
     <groups>
     </groups>
-    <test started-at="2022-04-14T15:14:20 IST" name="ApiTestCases" finished-at="2022-04-14T15:14:29 IST" duration-ms="9224">
+    <test started-at="2022-04-19T15:19:00 IST" name="ApiTestCases" finished-at="2022-04-19T15:19:11 IST" duration-ms="11000">
       <class name="com.learning.api.test.CreateUserApiTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning.api.test.CreateUserApiTest@27f981c6]" started-at="2022-04-14T15:14:20 IST" name="setup" finished-at="2022-04-14T15:14:20 IST" duration-ms="52" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning.api.test.CreateUserApiTest@4604b900]" started-at="2022-04-19T15:19:00 IST" name="setup" finished-at="2022-04-19T15:19:00 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@27f981c6]" started-at="2022-04-14T15:14:22 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-14T15:14:27 IST" duration-ms="4633" status="PASS">
+        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@4604b900]" started-at="2022-04-19T15:19:03 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-19T15:19:07 IST" duration-ms="4251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest1 -->
-        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@27f981c6]" started-at="2022-04-14T15:14:27 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-14T15:14:27 IST" duration-ms="573" status="PASS">
+        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@4604b900]" started-at="2022-04-19T15:19:07 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-19T15:19:08 IST" duration-ms="924" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest1 -->
-        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@27f981c6]" started-at="2022-04-14T15:14:27 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-14T15:14:28 IST" duration-ms="569" status="PASS">
+        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@4604b900]" started-at="2022-04-19T15:19:08 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-19T15:19:09 IST" duration-ms="973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest1 -->
-        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@27f981c6]" started-at="2022-04-14T15:14:28 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-14T15:14:28 IST" duration-ms="515" status="PASS">
+        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@4604b900]" started-at="2022-04-19T15:19:09 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-19T15:19:10 IST" duration-ms="981" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest1 -->
-        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@27f981c6]" started-at="2022-04-14T15:14:28 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-14T15:14:29 IST" duration-ms="484" status="PASS">
+        <test-method signature="createUserTest1(java.lang.String,java.lang.String)[pri:0, instance:com.learning.api.test.CreateUserApiTest@4604b900]" started-at="2022-04-19T15:19:10 IST" name="createUserTest1" data-provider="empDataProvider" finished-at="2022-04-19T15:19:11 IST" duration-ms="798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,11 +93,11 @@
         </test-method> <!-- createUserTest1 -->
       </class> <!-- com.learning.api.test.CreateUserApiTest -->
       <class name="com.learning.api.test.GetApiTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning.api.test.GetApiTest@d9345cd]" started-at="2022-04-14T15:14:29 IST" name="setup" finished-at="2022-04-14T15:14:29 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learning.api.test.GetApiTest@1fd386c3]" started-at="2022-04-19T15:19:11 IST" name="setup" finished-at="2022-04-19T15:19:11 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getApiTest1()[pri:0, instance:com.learning.api.test.GetApiTest@d9345cd]" started-at="2022-04-14T15:14:29 IST" name="getApiTest1" finished-at="2022-04-14T15:14:29 IST" duration-ms="165" status="PASS">
+        <test-method signature="getApiTest1()[pri:0, instance:com.learning.api.test.GetApiTest@1fd386c3]" started-at="2022-04-19T15:19:11 IST" name="getApiTest1" finished-at="2022-04-19T15:19:11 IST" duration-ms="381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApiTest1 -->

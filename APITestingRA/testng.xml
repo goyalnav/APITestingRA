@@ -3,6 +3,7 @@
 <suite name="API Tests">
 <listeners>
 	<listener class-name="com.learning.api.utils.Listeners" />
+	<listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
 </listeners>
     <test name="ApiTestCases">
          <classes>
