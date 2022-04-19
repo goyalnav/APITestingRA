@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>APITestingRA</groupId>
+  <artifactId>APITestingRA</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>APITestingRA</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.sample.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ 
+  </properties>
+   
+
+  <build>
+
+      <plugins>
+   
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.1</version>
+          <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+          </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.2</version>
+        </plugin>
+        </plugins>
+    
+  </build>
+  
+   <dependencies>
+   <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.5.1</version>
+    <scope>test</scope>
+   </dependency>
+   <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.5</version>
+    <scope>compile</scope>
+   </dependency>
+   <dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+   </dependency>
+   <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.2</version>
+   </dependency>
+   <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.2</version>
+   </dependency>
+   <dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+   </dependency>
+   <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+   </dependency>
+   <dependency>
+   <groupId>org.projectlombok</groupId>
+   <artifactId>lombok</artifactId>
+   <version>1.18.22</version>
+   </dependency>
+   <dependency>
+  <groupId>com.epam.reportportal</groupId>
+  <artifactId>agent-java-testng</artifactId>
+  <version>5.1.2</version>
+</dependency>
+<!-- TODO Leave only one dependency, depends on what logger you use: -->
+<dependency>
+  <groupId>com.epam.reportportal</groupId>
+  <artifactId>logger-java-logback</artifactId>
+  <version>5.1.1</version>
+</dependency>
+<dependency>
+  <groupId>com.epam.reportportal</groupId>
+  <artifactId>logger-java-log4j</artifactId>
+  <version>5.1.4</version>
+</dependency>                     
+                        
+  </dependencies>
+</project>
