@@ -10,6 +10,7 @@ import com.learning.api.GlobalVariables;
 import com.learning.api.utils.LogUtils;
 import com.learning.api.utils.XLUtils;
 
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -28,6 +29,8 @@ public class CreateUserApiTest extends BaseTest {
 		JsonPath jsonpath = response.jsonPath();
 
 		this.lu.logs("\n***********Assertions****************** \n");
+		
+		this.lu.logs("\n JsonSchemaValidaton  " + response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("createUserApiSchema.json")));
 		Assert.assertEquals(response.statusCode(), 201);
 		this.lu.logs("\nStatusCode: " + response.statusCode());
 		Assert.assertEquals(response.header("Server"), "cloudflare");
@@ -38,6 +41,8 @@ public class CreateUserApiTest extends BaseTest {
 		Assert.assertEquals(jsonpath.get("job"), job);
 		this.lu.logs("\nNode Job: " + jsonpath.get("job"));
 		this.logger.warn("Testing Logger " + response.statusCode() + response.header("Server") + name + job);
+		
+		
 
 	}
 
