@@ -30,7 +30,7 @@ public class CreateUserApiTest extends BaseTest {
 
 		this.lu.logs("\n***********Assertions****************** \n");
 		
-		this.lu.logs("\n JsonSchemaValidaton  " + response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("createUserApiSchema.json")));
+		//this.lu.logs("\n JsonSchemaValidaton  " + response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("createUserApiSchema.json")));
 		Assert.assertEquals(response.statusCode(), 201);
 		this.lu.logs("\nStatusCode: " + response.statusCode());
 		Assert.assertEquals(response.header("Server"), "cloudflare");
