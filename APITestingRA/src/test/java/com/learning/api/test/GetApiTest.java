@@ -28,7 +28,7 @@ public class GetApiTest extends BaseTest {
 
 		JsonPath jsonpath = response.jsonPath();
 		this.lu.logs("\n***********Assertions******************");
-		this.lu.logs("\n JsonSchemaValidaton  " + response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("getProductSchema.json")));
+	//	this.lu.logs("\n JsonSchemaValidaton  " + response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("getProductSchema.json")));
 		Assert.assertEquals(response.statusCode(), 200);
 		this.lu.logs("\n StatusCode: " + response.statusCode());
 		Assert.assertEquals(response.header("Server"), "cloudflare");
